@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canine Quiz App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="start">
+      <h1>Welcome to the canine Quiz</h1>
+
+      <p>Test your canine knowledge</p>
+      <input type="button" value="Start" class="start-button" alt="Start" />
+    </div>
+
+    <div class="quiz">
+      <form class="quiz-form">
+        <div class="questions"></div>
+        <button class="submit-answer" type="button" alt="Submit your answer">
+          Submit your answer
+        </button>
+      </form>
+        <fieldset class="tally-area">
+      <div class="question-number"></div>
+      <div class="score"></div>
+    </fieldset>
+    </div>
+
+    <div class="summary">
+      <section class="final">
+        <h2>
+          Thanks for playing your score is <span class="score"></span> out of
+          <span class="question-total"></span>
+        </h2>
+
+        <button
+          type="button"
+          class="restart-button"
+          alt="Click here to play again"
+        >
+          Click here to play again
+        </button>
+      </section>
+    </div>
+
+    <div class="feedback">
+      <p class="statement">Feedback goes here</p>
+      <button class="continue" type="button" alt="Submit your answer">
+        Continue
+      </button>
+    </div>
+
+    <div class="noselected">
+      <p>Please select an answer for this question</p>
+      <button class="goback" type="button" alt="Go Back">
+        Go Back
+      </button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+

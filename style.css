@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: merriweather; 
+  }
+
+    /* html { 
+    background: url("https://knowthemthroughpoems.files.wordpress.com/2013/06/king-charles.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }   */
+
+  body {
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/09/19/32/dog-838281__340.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
+    background-size: cover;
+    
+    }
+
+  .start, .quiz, .feedback, .summary, .noselected, .counter, .submit-answer {
+    display: block;
+    height: 100%;
+    background-color: rgba(133, 133, 133, 0.60); 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+    border: 1px solid #e0e0d1;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color:whitesmoke;
+    text-align: center;
+    }
+    
+    
+    h1, h2 {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    }
+
+
+    
+    p {
+      display: block;
+      padding: 10px; 
+      font-size: 20;
+      text-align: center;
+      color: black;
+      }
+    
+
+     ul,li { list-style-type: none;
+        list-style-position: inside;
+        margin:0;
+        padding:0; }
+    
+    li {
+        list-style: none;
+        display: block;
+        border: 1px solid #e0e0d1;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 30px;
+        background-color: rgba(107, 41, 41, 0.6);
+    }
+   
+    .tally-area {
+        list-style: none;
+        display: block;
+        border: 1px solid #e0e0d1;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 20px;
+        color: black;
+        background-color: rgba(191, 191, 191, 0.6);
+    }
+
+    .continue, .submit-answer, .start-button, .goback, .restart-button  {
+        display: block;
+        height: 100%;
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: auto; 
+        margin-bottom: auto; 
+        border: 1px solid #e0e0d1;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        color:rgba(0, 0, 0, 0.87);
+      } 
+
+      .submit-answer {
+        background-color: rgba(184, 115, 50, 0.6);
+        color: black;
+      }
+
+      .start-button {
+        background-color: rgba(41, 204, 0, 0.6); 
+        color: black;
+      }
+
+      .continue {
+        background-color: rgba(207, 180, 58, 0.6); 
+        color: black;
+      }
+      .goback {display: block;
+        background-color: rgba(204, 0, 0, 1);
+        color: black;
+      }
+
+    .restart-button {
+      background-color: rgba(209, 160, 0, 0.6);
+      color: black;
+    }
